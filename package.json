@@ -1,1 +1,15 @@
-package.json
+
+{
+  "name": "social-ai-auto-reply",
+  "version": "1.0.0",
+  "description": "Instagram and Messenger AI Auto Reply",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "openai": "^4.77.0"
+  }
+}
+
